@@ -166,7 +166,7 @@ Funciona directamente en el navegador porque esta hecho con HTML, CSS y JavaScri
 1. Clona el repositorio:
 
 ```bash
-git clone [URL_DEL_REPOSITORIO](https://github.com/Scotty-App/Scotty-App-Frontend)
+git clone github.com/Scotty-App/Scotty-App-Frontend
 ```
 
 2. Entra en la carpeta del proyecto:
