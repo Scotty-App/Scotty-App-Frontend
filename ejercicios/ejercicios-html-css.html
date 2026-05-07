@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,10 @@
 <body>
     <header>
         <nav>
-            <a href="../index.html" class="logo">Scotty.app</a>
+            <a href="../inicio.html" class="logo">Scotty.app</a>
 
             <div class="menu">
-                <a href="../lenguajes.html">Lenguajes</a>
+                <a href="../inicio.html">Inicio</a>
 
                 <details class="usuario-menu">
                     <summary><span class="nombre-usuario">Usuario</span></summary>
@@ -33,31 +33,110 @@
                 cortos para practicar, ganar experiencia y sumar puntos.
             </p>
 
-            <div class="bloques">
-                <article>
-                    <h2>Bloque 1</h2>
-                    <p>Ejercicios 1 - 5</p>
-                    <a href="bloques/BLOQUE1/bloque1-html-css.html">Empezar bloque</a>
-                </article>
+            <section class="nivel-bloques">
+                <h2 class="nivel-facil">Nivel: Facil</h2>
+                <p>Empieza con etiquetas, enlaces, imagenes y estilos basicos.</p>
 
-                <article>
-                    <h2>Bloque 2</h2>
-                    <p>Ejercicios 6 - 10</p>
-                    <a href="bloques/BLOQUE2/bloque2-html-css.html">Empezar bloque</a>
-                </article>
+                <div class="bloques">
+                    <article data-bloque="bloque1HtmlCss">
+                        <h2>Bloque 1</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 1 - 5</p>
+                        <a href="bloques/html-css/facil/BLOQUE1/pre-bloque1-html-css.html">Empezar bloque</a>
+                    </article>
 
-                <article>
-                    <h2>Bloque 3</h2>
-                    <p>Ejercicios 11 - 15</p>
-                    <a href="bloques/BLOQUE3/bloque3-html-css.html">Empezar bloque</a>
-                </article>
+                    <article data-bloque="bloque2HtmlCss">
+                        <h2>Bloque 2</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 6 - 10</p>
+                        <a href="bloques/html-css/facil/BLOQUE2/pre-bloque2-html-css.html">Empezar bloque</a>
+                    </article>
 
-                <article>
-                    <h2>Bloque 4</h2>
-                    <p>Ejercicios 16 - 20</p>
-                    <a href="bloques/BLOQUE4/bloque4-html-css.html">Empezar bloque</a>
-                </article>
-            </div>
+                    <article data-bloque="bloque3HtmlCss">
+                        <h2>Bloque 3</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 11 - 15</p>
+                        <a href="bloques/html-css/facil/BLOQUE3/pre-bloque3-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque4HtmlCss">
+                        <h2>Bloque 4</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 16 - 20</p>
+                        <a href="bloques/html-css/facil/BLOQUE4/pre-bloque4-html-css.html">Empezar bloque</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="nivel-bloques">
+                <h2 class="nivel-intermedio">Nivel: Intermedio</h2>
+                <p>Avanza con HTML semantico, formularios, selectores y cajas.</p>
+
+                <div class="bloques">
+                    <article data-bloque="bloque5HtmlCss">
+                        <h2>Bloque 5</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 21 - 25</p>
+                        <a href="bloques/html-css/intermedio/BLOQUE5/pre-bloque5-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque6HtmlCss">
+                        <h2>Bloque 6</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 26 - 30</p>
+                        <a href="bloques/html-css/intermedio/BLOQUE6/pre-bloque6-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque7HtmlCss">
+                        <h2>Bloque 7</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 31 - 35</p>
+                        <a href="bloques/html-css/intermedio/BLOQUE7/pre-bloque7-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque8HtmlCss">
+                        <h2>Bloque 8</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 36 - 40</p>
+                        <a href="bloques/html-css/intermedio/BLOQUE8/pre-bloque8-html-css.html">Empezar bloque</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="nivel-bloques">
+                <h2 class="nivel-dificil">Nivel: Dificil</h2>
+                <p>Termina la ruta con Flexbox, Grid, responsive y detalles visuales.</p>
+
+                <div class="bloques">
+                    <article data-bloque="bloque9HtmlCss">
+                        <h2>Bloque 9</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 41 - 45</p>
+                        <a href="bloques/html-css/dificil/BLOQUE9/pre-bloque9-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque10HtmlCss">
+                        <h2>Bloque 10</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 46 - 50</p>
+                        <a href="bloques/html-css/dificil/BLOQUE10/pre-bloque10-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque11HtmlCss">
+                        <h2>Bloque 11</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 51 - 55</p>
+                        <a href="bloques/html-css/dificil/BLOQUE11/pre-bloque11-html-css.html">Empezar bloque</a>
+                    </article>
+
+                    <article data-bloque="bloque12HtmlCss">
+                        <h2>Bloque 12</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 56 - 60</p>
+                        <a href="bloques/html-css/dificil/BLOQUE12/pre-bloque12-html-css.html">Empezar bloque</a>
+                    </article>
+                </div>
+            </section>
         </section>
     </main>
     <script src="../otros/script.js"></script>

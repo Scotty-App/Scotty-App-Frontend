@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,10 @@
 <body>
     <header>
         <nav>
-            <a href="../index.html" class="logo">Scotty.app</a>
+            <a href="../inicio.html" class="logo">Scotty.app</a>
 
             <div class="menu">
-                <a href="../lenguajes.html">Lenguajes</a>
+                <a href="../inicio.html">Inicio</a>
 
                 <details class="usuario-menu">
                     <summary><span class="nombre-usuario">Usuario</span></summary>
@@ -33,31 +33,99 @@
                 cortos para practicar, ganar experiencia y sumar puntos.
             </p>
 
-            <div class="bloques">
-                <article>
-                    <h2>Bloque 1</h2>
-                    <p>Ejercicios 1 - 5</p>
-                    <a href="bloques/BLOQUE1/bloque1-sql.html">Empezar bloque</a>
-                </article>
+            <section class="nivel-bloques">
+                <h2 class="nivel-facil">Nivel: Facil</h2>
+                <p>Repasa consultas, filtros, orden y funciones sencillas.</p>
 
-                <article>
-                    <h2>Bloque 2</h2>
-                    <p>Ejercicios 6 - 10</p>
-                    <a href="bloques/BLOQUE2/bloque2-sql.html">Empezar bloque</a>
-                </article>
+                <div class="bloques">
+                    <article data-bloque="bloque1Sql">
+                        <h2>Bloque 1</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 1 - 5</p>
+                        <a href="bloques/sql/facil/BLOQUE1/pre-bloque1-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque2Sql">
+                        <h2>Bloque 2</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 6 - 10</p>
+                        <a href="bloques/sql/facil/BLOQUE2/pre-bloque2-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque3Sql">
+                        <h2>Bloque 3</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 11 - 15</p>
+                        <a href="bloques/sql/facil/BLOQUE3/pre-bloque3-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque4Sql">
+                        <h2>Bloque 4</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 16 - 20</p>
+                        <a href="bloques/sql/facil/BLOQUE4/pre-bloque4-sql.html">Empezar bloque</a>
+                    </article>
+                </div>
+            </section>
+            <section class="nivel-bloques">
+                <h2 class="nivel-intermedio">Nivel: Intermedio</h2>
+                <p>Avanza con agrupaciones, joins, modificaciones y claves.</p>
 
-                <article>
-                    <h2>Bloque 3</h2>
-                    <p>Ejercicios 11 - 15</p>
-                    <a href="bloques/BLOQUE3/bloque3-sql.html">Empezar bloque</a>
-                </article>
+                <div class="bloques">
+                    <article data-bloque="bloque5Sql">
+                        <h2>Bloque 5</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 21 - 25</p>
+                        <a href="bloques/sql/intermedio/BLOQUE5/pre-bloque5-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque6Sql">
+                        <h2>Bloque 6</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 26 - 30</p>
+                        <a href="bloques/sql/intermedio/BLOQUE6/pre-bloque6-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque7Sql">
+                        <h2>Bloque 7</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 31 - 35</p>
+                        <a href="bloques/sql/intermedio/BLOQUE7/pre-bloque7-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque8Sql">
+                        <h2>Bloque 8</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 36 - 40</p>
+                        <a href="bloques/sql/intermedio/BLOQUE8/pre-bloque8-sql.html">Empezar bloque</a>
+                    </article>
+                </div>
+            </section>
+            <section class="nivel-bloques">
+                <h2 class="nivel-dificil">Nivel: Dificil</h2>
+                <p>Practica subconsultas, relaciones y diseno basico de datos.</p>
 
-                <article>
-                    <h2>Bloque 4</h2>
-                    <p>Ejercicios 16 - 20</p>
-                    <a href="bloques/BLOQUE4/bloque4-sql.html">Empezar bloque</a>
-                </article>
-            </div>
+                <div class="bloques">
+                    <article data-bloque="bloque9Sql">
+                        <h2>Bloque 9</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 41 - 45</p>
+                        <a href="bloques/sql/dificil/BLOQUE9/pre-bloque9-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque10Sql">
+                        <h2>Bloque 10</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 46 - 50</p>
+                        <a href="bloques/sql/dificil/BLOQUE10/pre-bloque10-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque11Sql">
+                        <h2>Bloque 11</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 51 - 55</p>
+                        <a href="bloques/sql/dificil/BLOQUE11/pre-bloque11-sql.html">Empezar bloque</a>
+                    </article>
+                    <article data-bloque="bloque12Sql">
+                        <h2>Bloque 12</h2>
+                        <span class="estado-bloque">Pendiente</span>
+                        <p>Ejercicios 56 - 60</p>
+                        <a href="bloques/sql/dificil/BLOQUE12/pre-bloque12-sql.html">Empezar bloque</a>
+                    </article>
+                </div>
+            </section>
         </section>
     </main>
     <script src="../otros/script.js"></script>
