@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 4 JavaScript - Scotty.app</title>
+    <link rel="stylesheet" href="../../../../../otros/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../../../inicio.html" class="logo">Scotty.app</a>
+            <div class="menu">
+                <a href="../../../../../inicio.html">Inicio</a>
+                <details class="usuario-menu">
+                    <summary><span class="nombre-usuario">Usuario</span></summary>
+                    <div class="submenu">
+                        <a href="../../../../../perfil.html">Perfil</a>
+                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesion</a>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ejercicios">
+            <h1>JavaScript - Bloque 4</h1>
+            <p>Repasa objetos, JSON y validacion sencilla.</p>
+            <form class="quiz" data-quiz data-clave="bloque4Javascript" data-resultado="resultado-bloque4-javascript.html">
+                <article>
+                    <h2>Ejercicio 16</h2>
+                    <p>&iquest;Como se define un objeto sencillo?</p>
+                    <label><input type="radio" name="js16" value="correcta"> { nombre: "Ana" }</label>
+                    <label><input type="radio" name="js16" value="incorrecta"> [ nombre = "Ana" ]</label>
+                    <label><input type="radio" name="js16" value="incorrecta"> object(nombre)</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 17</h2>
+                    <p>&iquest;Que metodo convierte un objeto en texto JSON?</p>
+                    <label><input type="radio" name="js17" value="correcta"> JSON.stringify()</label>
+                    <label><input type="radio" name="js17" value="incorrecta"> JSON.text()</label>
+                    <label><input type="radio" name="js17" value="incorrecta"> JSON.object()</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 18</h2>
+                    <p>&iquest;Que metodo convierte texto JSON en objeto?</p>
+                    <label><input type="radio" name="js18" value="correcta"> JSON.parse()</label>
+                    <label><input type="radio" name="js18" value="incorrecta"> JSON.back()</label>
+                    <label><input type="radio" name="js18" value="incorrecta"> JSON.read()</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 19</h2>
+                    <p>&iquest;Que metodo guarda datos en localStorage?</p>
+                    <label><input type="radio" name="js19" value="correcta"> setItem()</label>
+                    <label><input type="radio" name="js19" value="incorrecta"> save()</label>
+                    <label><input type="radio" name="js19" value="incorrecta"> push()</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 20</h2>
+                    <p>&iquest;Que hace <code>preventDefault()</code> en un formulario?</p>
+                    <label><input type="radio" name="js20" value="correcta"> Evita el envio automatico</label>
+                    <label><input type="radio" name="js20" value="incorrecta"> Borra todos los inputs</label>
+                    <label><input type="radio" name="js20" value="incorrecta"> Cambia el CSS</label>
+                </article>
+                <button type="submit">Terminar bloque</button>
+            </form>
+        </section>
+    </main>
+    <script src="../../../../../otros/script.js"></script>
+</body>
+</html>
