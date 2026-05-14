@@ -1,15 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloque 5 HTML y CSS - Scotty.app</title>
+    <title>Bloque 5 HTML y CSS - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../img/ScottyFondoTransparente.png">
     <link rel="stylesheet" href="../../../../../otros/estilos.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="../../../../../inicio.html" class="logo">Scotty.app</a>
+            <a href="../../../../../inicio.html" class="logo">
+                <img src="../../../../../img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
 
             <div class="menu">
                 <a href="../../../../../inicio.html">Inicio</a>
@@ -18,13 +22,14 @@
                     <summary><span class="nombre-usuario">Usuario</span></summary>
                     <div class="submenu">
                         <a href="../../../../../perfil.html">Perfil</a>
-                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesion</a>
+                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesión</a>
                     </div>
                 </details>
             </div>
         </nav>
     </header>
     <main>
+        <a href="javascript:history.back()" class="volver-atras">&#8592; Volver</a>
         <section class="ejercicios">
             <h1>HTML y CSS - Bloque 5</h1>
             <p>Practica estructura semantica y buenas costumbres en HTML.</p>
@@ -32,7 +37,7 @@
             <form class="quiz" data-quiz data-clave="bloque5HtmlCss" data-resultado="resultado-bloque5-html-css.html">
                 <article>
                     <h2>Ejercicio 21</h2>
-                    <p>&iquest;Que etiqueta suele representar la parte superior de una pagina?</p>
+                    <p>¿Qué etiqueta suele representar la parte superior de una pagina?</p>
                     <label><input type="radio" name="html21" value="correcta"> header</label>
                     <label><input type="radio" name="html21" value="incorrecta"> aside</label>
                     <label><input type="radio" name="html21" value="incorrecta"> small</label>
@@ -40,7 +45,7 @@
 
                 <article>
                     <h2>Ejercicio 22</h2>
-                    <p>&iquest;Que etiqueta suele usarse para la parte final de una pagina?</p>
+                    <p>¿Qué etiqueta suele usarse para la parte final de una pagina?</p>
                     <label><input type="radio" name="html22" value="correcta"> footer</label>
                     <label><input type="radio" name="html22" value="incorrecta"> main</label>
                     <label><input type="radio" name="html22" value="incorrecta"> label</label>
@@ -48,7 +53,7 @@
 
                 <article>
                     <h2>Ejercicio 23</h2>
-                    <p>&iquest;Que etiqueta contiene el contenido principal?</p>
+                    <p>¿Qué etiqueta contiene el contenido principal?</p>
                     <label><input type="radio" name="html23" value="correcta"> main</label>
                     <label><input type="radio" name="html23" value="incorrecta"> nav</label>
                     <label><input type="radio" name="html23" value="incorrecta"> meta</label>
@@ -56,7 +61,7 @@
 
                 <article>
                     <h2>Ejercicio 24</h2>
-                    <p>&iquest;Que etiqueta agrupa enlaces de navegacion?</p>
+                    <p>¿Qué etiqueta agrupa enlaces de navegacion?</p>
                     <label><input type="radio" name="html24" value="correcta"> nav</label>
                     <label><input type="radio" name="html24" value="incorrecta"> form</label>
                     <label><input type="radio" name="html24" value="incorrecta"> input</label>
@@ -64,7 +69,7 @@
 
                 <article>
                     <h2>Ejercicio 25</h2>
-                    <p>&iquest;Que etiqueta marca una seccion independiente?</p>
+                    <p>¿Qué etiqueta marca una seccion independiente?</p>
                     <label><input type="radio" name="html25" value="correcta"> section</label>
                     <label><input type="radio" name="html25" value="incorrecta"> style</label>
                     <label><input type="radio" name="html25" value="incorrecta"> script</label>

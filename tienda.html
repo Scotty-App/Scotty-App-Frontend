@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda - Scotty.app</title>
+    <title>Tienda - Scotty.App</title>
+    <link rel="icon" type="image/png" href="img/ScottyFondoTransparente.png">
     <link rel="stylesheet" href="otros/estilos.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="inicio.html" class="logo">Scotty.app</a>
+            <a href="inicio.html" class="logo">
+                <img src="img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
 
             <div class="menu">
                 <a href="inicio.html">Inicio</a>
@@ -18,7 +22,7 @@
                     <summary><span class="nombre-usuario">Usuario</span></summary>
                     <div class="submenu">
                         <a href="perfil.html">Perfil</a>
-                        <a href="acceso/signin.html" class="cerrar-sesion">Cerrar sesion</a>
+                        <a href="acceso/signin.html" class="cerrar-sesion">Cerrar sesión</a>
                     </div>
                 </details>
             </div>
@@ -26,75 +30,107 @@
     </header>
 
     <main>
+        <a href="javascript:history.back()" class="volver-atras">&#8592; Volver</a>
         <section class="tienda">
             <p class="etiqueta">Merch para apoyar el proyecto</p>
-            <h1>Tienda de Scotty.app</h1>
+            <h1>Tienda de Scotty.App</h1>
             <p>
-                Cada compra ayuda a seguir mejorando la aplicacion, crear nuevos ejercicios
-                y mantener vivo el proyecto. Elige tu producto favorito y lleva Scotty.app
-                tambien fuera de la pantalla.
+                Cada compra ayuda a seguir mejorando la aplicación, crear nuevos ejercicios
+                y mantener vivo el proyecto. Elige tu producto favorito y lleva Scotty.App
+                también fuera de la pantalla.
             </p>
 
-            <div class="lista-productos">
-                <article class="producto">
-                    <div class="imagen-producto">SC</div>
-                    <h2>Camiseta Scotty.app</h2>
-                    <p>Camiseta negra con logo azul, pensada para programar comodo durante horas.</p>
-                    <div class="precio-producto">
-                        <span>19,99 EUR</span>
-                        <button type="button">Comprar</button>
-                    </div>
-                </article>
+            <div class="zona-tienda">
+                <div class="lista-productos">
+                    <article class="producto">
+                        <div class="imagen-producto">
+                            <img src="img/Camiseta_Delante.jpg" alt="Camiseta Scotty.App">
+                        </div>
+                        <h2>Camiseta Scotty.App</h2>
+                        <p>Camiseta negra con logo azul, pensada para programar cómodo durante horas.</p>
+                        <div class="precio-producto">
+                            <span>19,99 EUR</span>
+                            <button type="button" class="boton-carrito" data-nombre="Camiseta Scotty.App" data-precio="19.99">Añadir</button>
+                        </div>
+                    </article>
 
-                <article class="producto">
-                    <div class="imagen-producto">XP</div>
-                    <h2>Sudadera Nivel XP</h2>
-                    <p>Sudadera suave con diseno de experiencia para quienes siempre van a por otro bloque.</p>
-                    <div class="precio-producto">
-                        <span>39,99 EUR</span>
-                        <button type="button">Comprar</button>
-                    </div>
-                </article>
+                    <article class="producto">
+                        <div class="imagen-producto">
+                            <img src="img/Sudadera_Delante.jpg" alt="Sudadera Nivel XP">
+                        </div>
+                        <h2>Sudadera Nivel XP</h2>
+                        <p>Sudadera suave con diseño de experiencia para quienes siempre van a por otro bloque.</p>
+                        <div class="precio-producto">
+                            <span>39,99 EUR</span>
+                            <button type="button" class="boton-carrito" data-nombre="Sudadera Nivel XP" data-precio="39.99">Añadir</button>
+                        </div>
+                    </article>
 
-                <article class="producto">
-                    <div class="imagen-producto">{ }</div>
-                    <h2>Taza de codigo</h2>
-                    <p>Taza para acompanar sesiones de quiz, repasos largos y pequenos logros diarios.</p>
-                    <div class="precio-producto">
-                        <span>11,99 EUR</span>
-                        <button type="button">Comprar</button>
-                    </div>
-                </article>
+                    <article class="producto">
+                        <div class="imagen-producto">
+                            <img src="img/Taza.jpg" alt="Taza de código">
+                        </div>
+                        <h2>Taza de código</h2>
+                        <p>Taza para acompañar sesiones de quiz, repasos largos y pequeños logros diarios.</p>
+                        <div class="precio-producto">
+                            <span>11,99 EUR</span>
+                            <button type="button" class="boton-carrito" data-nombre="Taza de código" data-precio="11.99">Añadir</button>
+                        </div>
+                    </article>
 
-                <article class="producto">
-                    <div class="imagen-producto">#</div>
-                    <h2>Pack de pegatinas</h2>
-                    <p>Pegatinas de lenguajes, puntos, niveles y frases cortas para decorar tu setup.</p>
-                    <div class="precio-producto">
-                        <span>6,99 EUR</span>
-                        <button type="button">Comprar</button>
-                    </div>
-                </article>
+                    <article class="producto">
+                        <div class="imagen-producto">
+                            <img src="img/Pegatinas.jpg" alt="Pack de pegatinas">
+                        </div>
+                        <h2>Pack de pegatinas</h2>
+                        <p>Pegatinas de lenguajes, puntos, niveles y frases cortas para decorar tu setup.</p>
+                        <div class="precio-producto">
+                            <span>6,99 EUR</span>
+                            <button type="button" class="boton-carrito" data-nombre="Pack de pegatinas" data-precio="6.99">Añadir</button>
+                        </div>
+                    </article>
 
-                <article class="producto">
-                    <div class="imagen-producto">SQL</div>
-                    <h2>Libreta de retos</h2>
-                    <p>Libreta para apuntar dudas, soluciones y trucos que quieras recordar despues.</p>
-                    <div class="precio-producto">
-                        <span>8,99 EUR</span>
-                        <button type="button">Comprar</button>
-                    </div>
-                </article>
+                    <article class="producto">
+                        <div class="imagen-producto">
+                            <img src="img/Libreta.jpg" alt="Libreta de retos">
+                        </div>
+                        <h2>Libreta de retos</h2>
+                        <p>Libreta para apuntar dudas, soluciones y trucos que quieras recordar después.</p>
+                        <div class="precio-producto">
+                            <span>8,99 EUR</span>
+                            <button type="button" class="boton-carrito" data-nombre="Libreta de retos" data-precio="8.99">Añadir</button>
+                        </div>
+                    </article>
 
-                <article class="producto">
-                    <div class="imagen-producto">DEV</div>
-                    <h2>Bolsa Dev</h2>
-                    <p>Bolsa resistente para llevar portatil, apuntes y ganas de seguir aprendiendo.</p>
-                    <div class="precio-producto">
-                        <span>14,99 EUR</span>
-                        <button type="button">Comprar</button>
+                    <article class="producto">
+                        <div class="imagen-producto">
+                            <img src="img/Funda_Portatil.jpg" alt="Funda portátil">
+                        </div>
+                        <h2>Funda portátil</h2>
+                        <p>Funda acolchada para proteger tu portátil y llevar Scotty.App contigo.</p>
+                        <div class="precio-producto">
+                            <span>14,99 EUR</span>
+                            <button type="button" class="boton-carrito" data-nombre="Funda portátil" data-precio="14.99">Añadir</button>
+                        </div>
+                    </article>
+                </div>
+
+                <aside class="carrito">
+                    <h2>Carrito</h2>
+                    <div id="listaCarrito" class="lista-carrito">
+                        <p class="carrito-vacio">Todavía no has añadido productos.</p>
                     </div>
-                </article>
+
+                    <div class="total-carrito">
+                        <span>Total</span>
+                        <strong id="totalCarrito">0,00 EUR</strong>
+                    </div>
+
+                    <div class="acciones-carrito">
+                        <button type="button" id="vaciarCarrito">Vaciar</button>
+                        <button type="button" id="finalizarCompra">Finalizar compra</button>
+                    </div>
+                </aside>
             </div>
         </section>
     </main>

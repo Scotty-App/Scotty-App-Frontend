@@ -1,15 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloque 11 HTML y CSS - Scotty.app</title>
+    <title>Bloque 11 HTML y CSS - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../img/ScottyFondoTransparente.png">
     <link rel="stylesheet" href="../../../../../otros/estilos.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="../../../../../inicio.html" class="logo">Scotty.app</a>
+            <a href="../../../../../inicio.html" class="logo">
+                <img src="../../../../../img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
 
             <div class="menu">
                 <a href="../../../../../inicio.html">Inicio</a>
@@ -18,13 +22,14 @@
                     <summary><span class="nombre-usuario">Usuario</span></summary>
                     <div class="submenu">
                         <a href="../../../../../perfil.html">Perfil</a>
-                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesion</a>
+                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesión</a>
                     </div>
                 </details>
             </div>
         </nav>
     </header>
     <main>
+        <a href="javascript:history.back()" class="volver-atras">&#8592; Volver</a>
         <section class="ejercicios">
             <h1>HTML y CSS - Bloque 11</h1>
             <p>Practica responsive y adaptacion a pantallas.</p>
@@ -32,7 +37,7 @@
             <form class="quiz" data-quiz data-clave="bloque11HtmlCss" data-resultado="resultado-bloque11-html-css.html">
                 <article>
                     <h2>Ejercicio 51</h2>
-                    <p>&iquest;Que regla permite cambiar estilos segun pantalla?</p>
+                    <p>¿Qué regla permite cambiar estilos segun pantalla?</p>
                     <label><input type="radio" name="html51" value="correcta"> @media</label>
                     <label><input type="radio" name="html51" value="incorrecta"> @screen</label>
                     <label><input type="radio" name="html51" value="incorrecta"> @change</label>
@@ -40,7 +45,7 @@
 
                 <article>
                     <h2>Ejercicio 52</h2>
-                    <p>&iquest;Que meta ayuda en moviles?</p>
+                    <p>¿Qué meta ayuda en moviles?</p>
                     <label><input type="radio" name="html52" value="correcta"> viewport</label>
                     <label><input type="radio" name="html52" value="incorrecta"> charset</label>
                     <label><input type="radio" name="html52" value="incorrecta"> author</label>
@@ -48,7 +53,7 @@
 
                 <article>
                     <h2>Ejercicio 53</h2>
-                    <p>&iquest;Que significa max-width en una media query?</p>
+                    <p>¿Qué significa max-width en una media query?</p>
                     <label><input type="radio" name="html53" value="correcta"> hasta ese ancho</label>
                     <label><input type="radio" name="html53" value="incorrecta"> desde ese alto</label>
                     <label><input type="radio" name="html53" value="incorrecta"> solo ordenador</label>
@@ -56,7 +61,7 @@
 
                 <article>
                     <h2>Ejercicio 54</h2>
-                    <p>&iquest;Que unidad se adapta mejor al ancho disponible?</p>
+                    <p>¿Qué unidad se adapta mejor al ancho disponible?</p>
                     <label><input type="radio" name="html54" value="correcta"> %</label>
                     <label><input type="radio" name="html54" value="incorrecta"> cm</label>
                     <label><input type="radio" name="html54" value="incorrecta"> pt</label>
@@ -64,7 +69,7 @@
 
                 <article>
                     <h2>Ejercicio 55</h2>
-                    <p>&iquest;Que suele hacerse en movil con una grid de varias columnas?</p>
+                    <p>¿Qué suele hacerse en movil con una grid de varias columnas?</p>
                     <label><input type="radio" name="html55" value="correcta"> pasarla a una columna</label>
                     <label><input type="radio" name="html55" value="incorrecta"> quitar el contenido</label>
                     <label><input type="radio" name="html55" value="incorrecta"> hacer el texto invisible</label>

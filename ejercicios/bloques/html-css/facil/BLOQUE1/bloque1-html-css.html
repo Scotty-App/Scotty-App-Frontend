@@ -1,15 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloque 1 HTML y CSS - Scotty.app</title>
+    <title>Bloque 1 HTML y CSS - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../img/ScottyFondoTransparente.png">
     <link rel="stylesheet" href="../../../../../otros/estilos.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="../../../../../inicio.html" class="logo">Scotty.app</a>
+            <a href="../../../../../inicio.html" class="logo">
+                <img src="../../../../../img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
 
             <div class="menu">
                 <a href="../../../../../inicio.html">Inicio</a>
@@ -18,7 +22,7 @@
                     <summary><span class="nombre-usuario">Usuario</span></summary>
                     <div class="submenu">
                         <a href="../../../../../perfil.html">Perfil</a>
-                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesion</a>
+                        <a href="../../../../../acceso/signin.html" class="cerrar-sesion">Cerrar sesión</a>
                     </div>
                 </details>
             </div>
@@ -26,6 +30,7 @@
     </header>
 
     <main>
+        <a href="javascript:history.back()" class="volver-atras">&#8592; Volver</a>
         <section class="ejercicios">
             <h1>HTML y CSS - Bloque 1</h1>
             <p>Practica etiquetas basicas de HTML y propiedades sencillas de CSS.</p>
@@ -33,7 +38,7 @@
             <form class="quiz" data-quiz data-clave="bloque1HtmlCss" data-resultado="resultado-bloque1-html-css.html">
                 <article>
                     <h2>Ejercicio 1</h2>
-                    <p>&iquest;Que etiqueta se usa para el titulo principal de una pagina?</p>
+                    <p>¿Qué etiqueta se usa para el titulo principal de una pagina?</p>
                     <label><input type="radio" name="html1" value="correcta"> &lt;h1&gt;</label>
                     <label><input type="radio" name="html1" value="incorrecta"> &lt;p&gt;</label>
                     <label><input type="radio" name="html1" value="incorrecta"> &lt;img&gt;</label>
@@ -41,7 +46,7 @@
 
                 <article>
                     <h2>Ejercicio 2</h2>
-                    <p>&iquest;Que etiqueta sirve para crear un enlace?</p>
+                    <p>¿Qué etiqueta sirve para crear un enlace?</p>
                     <label><input type="radio" name="html2" value="correcta"> &lt;a&gt;</label>
                     <label><input type="radio" name="html2" value="incorrecta"> &lt;link&gt;</label>
                     <label><input type="radio" name="html2" value="incorrecta"> &lt;section&gt;</label>
@@ -49,7 +54,7 @@
 
                 <article>
                     <h2>Ejercicio 3</h2>
-                    <p>&iquest;Que propiedad cambia el color del texto?</p>
+                    <p>¿Qué propiedad cambia el color del texto?</p>
                     <label><input type="radio" name="html3" value="incorrecta"> background-color</label>
                     <label><input type="radio" name="html3" value="correcta"> color</label>
                     <label><input type="radio" name="html3" value="incorrecta"> font-size</label>
@@ -57,7 +62,7 @@
 
                 <article>
                     <h2>Ejercicio 4</h2>
-                    <p>&iquest;Que propiedad cambia el tamano de la letra?</p>
+                    <p>¿Qué propiedad cambia el tamano de la letra?</p>
                     <label><input type="radio" name="html4" value="correcta"> font-size</label>
                     <label><input type="radio" name="html4" value="incorrecta"> text-align</label>
                     <label><input type="radio" name="html4" value="incorrecta"> border</label>
@@ -65,7 +70,7 @@
 
                 <article>
                     <h2>Ejercicio 5</h2>
-                    <p>&iquest;Que etiqueta se usa para insertar una imagen?</p>
+                    <p>¿Qué etiqueta se usa para insertar una imagen?</p>
                     <label><input type="radio" name="html5" value="incorrecta"> &lt;picture&gt;</label>
                     <label><input type="radio" name="html5" value="incorrecta"> &lt;src&gt;</label>
                     <label><input type="radio" name="html5" value="correcta"> &lt;img&gt;</label>

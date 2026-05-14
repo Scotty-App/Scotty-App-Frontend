@@ -194,3 +194,15 @@ Faltaria implementar en el futuro:
 - Guardado de progreso por usuario.
 - Tienda de recompensas.
 - Mas preguntas y niveles.
+
+## Conexión FTP
+
+IP:   134.0.10.191
+Usuario: scottyapaa
+Contraseña: Manuela1234#
+
+## Servidor
+
+Url: http://scotty456:MQGpwhMCh9U3@www.scottyapp.com.mialias.net/
+Usuario: scottyapaa
+Clave: MQGpwhMCh9U3 
