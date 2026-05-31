@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 8 SQL - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../assets/img/ScottyFondoTransparente.png">
+    <link rel="stylesheet" href="../../../../../assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../../../pages/inicio.html" class="logo">
+                <img src="../../../../../assets/img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
+
+            <div class="menu">
+                <a href="../../../../../pages/inicio.html">Inicio</a>
+
+                <details class="menu-usuario">
+                    <summary><span class="nombre-usuario">Usuario</span></summary>
+                    <div class="desplegable">
+                        <a href="../../../../../pages/perfil.html">Perfil</a>
+                        <a href="../../../../../pages/auth/signin.html" class="cerrar-sesion">Cerrar sesión</a>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a href="javascript:history.back()" class="btn-volver">&#8592; Volver</a>
+        <section class="ejercicios">
+            <h1>SQL - Bloque 8</h1>
+            <p>Practica insertar, actualizar y borrar.</p>
+
+            <form class="quiz" data-quiz data-clave="bloque8Sql" data-resultado="resultado-bloque8-sql.html">
+                <article>
+                    <h2>Ejercicio 36</h2>
+                    <p>¿Qué comando inserta datos?</p>
+                    <label><input type="radio" name="sql36" value="correcta"> INSERT INTO</label>
+                    <label><input type="radio" name="sql36" value="incorrecta"> ADD ROW</label>
+                    <label><input type="radio" name="sql36" value="incorrecta"> NEW DATA</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 37</h2>
+                    <p>¿Qué comando modifica datos?</p>
+                    <label><input type="radio" name="sql37" value="correcta"> UPDATE</label>
+                    <label><input type="radio" name="sql37" value="incorrecta"> CHANGE</label>
+                    <label><input type="radio" name="sql37" value="incorrecta"> MODIFY ALL</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 38</h2>
+                    <p>¿Qué comando elimina filas?</p>
+                    <label><input type="radio" name="sql38" value="correcta"> DELETE</label>
+                    <label><input type="radio" name="sql38" value="incorrecta"> DROP</label>
+                    <label><input type="radio" name="sql38" value="incorrecta"> REMOVE TABLE</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 39</h2>
+                    <p>¿Qué palabra indica nuevos valores al insertar?</p>
+                    <label><input type="radio" name="sql39" value="correcta"> VALUES</label>
+                    <label><input type="radio" name="sql39" value="incorrecta"> DATA</label>
+                    <label><input type="radio" name="sql39" value="incorrecta"> SET</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 40</h2>
+                    <p>¿Qué palabra limita que filas se modifican?</p>
+                    <label><input type="radio" name="sql40" value="correcta"> WHERE</label>
+                    <label><input type="radio" name="sql40" value="incorrecta"> ONLY</label>
+                    <label><input type="radio" name="sql40" value="incorrecta"> FILTERED</label>
+                </article>
+                <button type="submit">Terminar bloque</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../../../../../assets/js/script.js"></script>
+</body>
+</html>

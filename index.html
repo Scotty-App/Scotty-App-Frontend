@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenido - Scotty.App</title>
-    <link rel="icon" type="image/png" href="img/ScottyFondoTransparente.png">
-    <link rel="stylesheet" href="otros/estilos.css">
+    <link rel="icon" type="image/png" href="assets/img/ScottyFondoTransparente.png">
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html" class="logo">
-                <img src="img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <img src="assets/img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
                 <span>Scotty.App</span>
             </a>
 
             <div class="menu">
-                <a href="acceso/signin.html">Iniciar sesión</a>
-                <a href="acceso/signup.html">Registrarse</a>
+                <a href="pages/auth/signin.html">Iniciar sesión</a>
+                <a href="pages/auth/signup.html">Registrarse</a>
             </div>
         </nav>
     </header>
@@ -35,35 +35,74 @@
             </p>
 
             <div class="botones">
-                <a href="acceso/signup.html">Empieza gratis</a>
-                <a href="acceso/signin.html">Ya tengo cuenta</a>
+                <a href="pages/auth/signup.html">Empieza gratis</a>
+                <a href="pages/auth/signin.html">Ya tengo cuenta</a>
             </div>
         </section>
 
-        <section class="resumen">
-            <article>
-                <h2>Quiz por lenguaje</h2>
-                <p>
-                    Cada lenguaje tiene sus propias preguntas y retos para practicar sin mezclar
-                    conceptos. Puedes aprender JavaScript, Python, HTML, CSS y seguir creciendo paso a paso.
-                </p>
-            </article>
+        <hr class="separador">
 
-            <article>
-                <h2>Experiencia y progreso</h2>
-                <p>
-                    Cada respuesta correcta suma experiencia y puntos. Así puedes ver tu progreso
-                    después de cada quiz y saber que estás mejorando de verdad.
-                </p>
-            </article>
+        <section class="info-quiz">
+            <div class="info-quiz-layout">
+                <div class="info-quiz-texto">
+                    <p class="etiqueta">4 lenguajes · 12 bloques cada uno</p>
+                    <h2>Quiz por lenguaje, bloque a bloque</h2>
+                    <p>
+                        Cada lenguaje tiene doce bloques repartidos en tres niveles de dificultad:
+                        fácil, intermedio y difícil. Cada bloque tiene cinco preguntas. Necesitas
+                        al menos tres aciertos para superarlo y sumar experiencia.
+                    </p>
+                    <ul>
+                        <li>3 niveles: fácil, intermedio y difícil</li>
+                        <li>5 preguntas por bloque</li>
+                        <li>XP proporcional a la dificultad del nivel</li>
+                        <li>Tu progreso queda guardado entre sesiones</li>
+                    </ul>
+                </div>
+                <div class="info-quiz-grid">
+                    <article>
+                        <h3>Java</h3>
+                        <p>Fundamentos, orientación a objetos, colecciones y más.</p>
+                    </article>
+                    <article>
+                        <h3>JavaScript</h3>
+                        <p>Variables, funciones, arrays, promesas y DOM.</p>
+                    </article>
+                    <article>
+                        <h3>SQL</h3>
+                        <p>Consultas, joins, funciones y gestión de datos.</p>
+                    </article>
+                    <article>
+                        <h3>HTML / CSS</h3>
+                        <p>Estructura, estilos, layouts y diseño responsivo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-            <article>
-                <h2>Tienda de recompensas</h2>
-                <p>
-                    Los puntos que ganas se pueden canjear en una tienda por recompensas dentro
-                    de la app. Aprender también puede enganchar.
-                </p>
-            </article>
+        <hr class="separador">
+
+        <section class="info-tienda-landing">
+            <p class="etiqueta">Tienda de recompensas</p>
+            <h2>Gana XP. Canjéalo en la tienda.</h2>
+            <p>
+                Cada respuesta correcta suma experiencia. Con ese XP accedes a la tienda de Scotty,
+                donde puedes conseguir merch exclusivo de la plataforma.
+            </p>
+            <div class="info-tienda-grid">
+                <article>
+                    <h3>Ropa</h3>
+                    <p>Camisetas y sudaderas con diseños exclusivos de Scotty para llevar tu aprendizaje donde vayas.</p>
+                </article>
+                <article>
+                    <h3>Accesorios</h3>
+                    <p>Tazas, stickers y más para personalizar tu espacio de trabajo al estilo Scotty.</p>
+                </article>
+                <article>
+                    <h3>Canjes con XP</h3>
+                    <p>Cuanto más aprendes, más XP acumulas y más productos desbloqueas en la tienda.</p>
+                </article>
+            </div>
         </section>
 
         <!--<section class="ejemplo">

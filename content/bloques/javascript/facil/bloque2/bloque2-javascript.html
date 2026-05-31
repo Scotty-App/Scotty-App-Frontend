@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 2 JavaScript - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../assets/img/ScottyFondoTransparente.png">
+    <link rel="stylesheet" href="../../../../../assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../../../pages/inicio.html" class="logo">
+                <img src="../../../../../assets/img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
+            <div class="menu">
+                <a href="../../../../../pages/inicio.html">Inicio</a>
+                <details class="menu-usuario">
+                    <summary><span class="nombre-usuario">Usuario</span></summary>
+                    <div class="desplegable">
+                        <a href="../../../../../pages/perfil.html">Perfil</a>
+                        <a href="../../../../../pages/auth/signin.html" class="cerrar-sesion">Cerrar sesión</a>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <a href="javascript:history.back()" class="btn-volver">&#8592; Volver</a>
+        <section class="ejercicios">
+            <h1>JavaScript - Bloque 2</h1>
+            <p>Practica funciones, condiciones y operadores.</p>
+            <form class="quiz" data-quiz data-clave="bloque2Javascript" data-resultado="resultado-bloque2-javascript.html">
+                <article>
+                    <h2>Ejercicio 6</h2>
+                    <p>¿Qué palabra se usa para crear una funcion clasica?</p>
+                    <label><input type="radio" name="js6" value="correcta"> function</label>
+                    <label><input type="radio" name="js6" value="incorrecta"> method</label>
+                    <label><input type="radio" name="js6" value="incorrecta"> def</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 7</h2>
+                    <p>¿Qué hace <code>return</code>?</p>
+                    <label><input type="radio" name="js7" value="correcta"> Devuelve un valor</label>
+                    <label><input type="radio" name="js7" value="incorrecta"> Cierra el navegador</label>
+                    <label><input type="radio" name="js7" value="incorrecta"> Crea un array</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 8</h2>
+                    <p>¿Qué operador significa AND?</p>
+                    <label><input type="radio" name="js8" value="correcta"> &&</label>
+                    <label><input type="radio" name="js8" value="incorrecta"> ||</label>
+                    <label><input type="radio" name="js8" value="incorrecta"> !</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 9</h2>
+                    <p>¿Qué metodo añade un elemento al final de un array?</p>
+                    <label><input type="radio" name="js9" value="correcta"> push()</label>
+                    <label><input type="radio" name="js9" value="incorrecta"> pop()</label>
+                    <label><input type="radio" name="js9" value="incorrecta"> shift()</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 10</h2>
+                    <p>¿Qué propiedad da el numero de elementos de un array?</p>
+                    <label><input type="radio" name="js10" value="correcta"> length</label>
+                    <label><input type="radio" name="js10" value="incorrecta"> size()</label>
+                    <label><input type="radio" name="js10" value="incorrecta"> total</label>
+                </article>
+                <button type="submit">Terminar bloque</button>
+            </form>
+        </section>
+    </main>
+    <script src="../../../../../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 11 SQL - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../assets/img/ScottyFondoTransparente.png">
+    <link rel="stylesheet" href="../../../../../assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../../../pages/inicio.html" class="logo">
+                <img src="../../../../../assets/img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
+
+            <div class="menu">
+                <a href="../../../../../pages/inicio.html">Inicio</a>
+
+                <details class="menu-usuario">
+                    <summary><span class="nombre-usuario">Usuario</span></summary>
+                    <div class="desplegable">
+                        <a href="../../../../../pages/perfil.html">Perfil</a>
+                        <a href="../../../../../pages/auth/signin.html" class="cerrar-sesion">Cerrar sesión</a>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a href="javascript:history.back()" class="btn-volver">&#8592; Volver</a>
+        <section class="ejercicios">
+            <h1>SQL - Bloque 11</h1>
+            <p>Trabaja orden, indices y rendimiento sencillo.</p>
+
+            <form class="quiz" data-quiz data-clave="bloque11Sql" data-resultado="resultado-bloque11-sql.html">
+                <article>
+                    <h2>Ejercicio 51</h2>
+                    <p>¿Qué palabra ordena resultados?</p>
+                    <label><input type="radio" name="sql51" value="correcta"> ORDER BY</label>
+                    <label><input type="radio" name="sql51" value="incorrecta"> SORT</label>
+                    <label><input type="radio" name="sql51" value="incorrecta"> GROUP</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 52</h2>
+                    <p>¿Qué palabra ordena de menor a mayor?</p>
+                    <label><input type="radio" name="sql52" value="correcta"> ASC</label>
+                    <label><input type="radio" name="sql52" value="incorrecta"> DESC</label>
+                    <label><input type="radio" name="sql52" value="incorrecta"> UP</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 53</h2>
+                    <p>¿Qué palabra limita resultados?</p>
+                    <label><input type="radio" name="sql53" value="correcta"> LIMIT</label>
+                    <label><input type="radio" name="sql53" value="incorrecta"> MAX</label>
+                    <label><input type="radio" name="sql53" value="incorrecta"> STOP</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 54</h2>
+                    <p>¿Qué puede acelerar busquedas?</p>
+                    <label><input type="radio" name="sql54" value="correcta"> INDEX</label>
+                    <label><input type="radio" name="sql54" value="incorrecta"> VIEW</label>
+                    <label><input type="radio" name="sql54" value="incorrecta"> TEXT</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 55</h2>
+                    <p>¿Conviene usar SELECT * siempre?</p>
+                    <label><input type="radio" name="sql55" value="correcta"> no</label>
+                    <label><input type="radio" name="sql55" value="incorrecta"> si</label>
+                    <label><input type="radio" name="sql55" value="incorrecta"> solo con JOIN</label>
+                </article>
+                <button type="submit">Terminar bloque</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../../../../../assets/js/script.js"></script>
+</body>
+</html>

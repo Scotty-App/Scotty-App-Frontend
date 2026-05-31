@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 4 SQL - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../assets/img/ScottyFondoTransparente.png">
+    <link rel="stylesheet" href="../../../../../assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../../../pages/inicio.html" class="logo">
+                <img src="../../../../../assets/img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
+            <div class="menu">
+                <a href="../../../../../pages/inicio.html">Inicio</a>
+                <details class="menu-usuario">
+                    <summary><span class="nombre-usuario">Usuario</span></summary>
+                    <div class="desplegable">
+                        <a href="../../../../../pages/perfil.html">Perfil</a>
+                        <a href="../../../../../pages/auth/signin.html" class="cerrar-sesion">Cerrar sesión</a>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <a href="javascript:history.back()" class="btn-volver">&#8592; Volver</a>
+        <section class="ejercicios">
+            <h1>SQL - Bloque 4</h1>
+            <p>Relaciones entre tablas y cambios de datos.</p>
+            <form class="quiz" data-quiz data-clave="bloque4Sql" data-resultado="resultado-bloque4-sql.html">
+                <article>
+                    <h2>Ejercicio 16</h2>
+                    <p>¿Qué palabra une datos de dos tablas?</p>
+                    <label><input type="radio" name="sql16" value="correcta"> JOIN</label>
+                    <label><input type="radio" name="sql16" value="incorrecta"> LINK</label>
+                    <label><input type="radio" name="sql16" value="incorrecta"> UNIONIZE</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 17</h2>
+                    <p>¿Qué comando modifica datos existentes?</p>
+                    <label><input type="radio" name="sql17" value="correcta"> UPDATE</label>
+                    <label><input type="radio" name="sql17" value="incorrecta"> CHANGE TABLE</label>
+                    <label><input type="radio" name="sql17" value="incorrecta"> MODIFY ROW</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 18</h2>
+                    <p>¿Qué comando elimina registros?</p>
+                    <label><input type="radio" name="sql18" value="correcta"> DELETE</label>
+                    <label><input type="radio" name="sql18" value="incorrecta"> REMOVE ALL</label>
+                    <label><input type="radio" name="sql18" value="incorrecta"> DROP ROW</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 19</h2>
+                    <p>¿Qué clave identifica de forma unica un registro?</p>
+                    <label><input type="radio" name="sql19" value="correcta"> Primary key</label>
+                    <label><input type="radio" name="sql19" value="incorrecta"> Normal key</label>
+                    <label><input type="radio" name="sql19" value="incorrecta"> Text key</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 20</h2>
+                    <p>¿Qué comando elimina una tabla completa?</p>
+                    <label><input type="radio" name="sql20" value="correcta"> DROP TABLE</label>
+                    <label><input type="radio" name="sql20" value="incorrecta"> DELETE COLUMN</label>
+                    <label><input type="radio" name="sql20" value="incorrecta"> CLEAR TABLE</label>
+                </article>
+                <button type="submit">Terminar bloque</button>
+            </form>
+        </section>
+    </main>
+    <script src="../../../../../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 10 SQL - Scotty.App</title>
+    <link rel="icon" type="image/png" href="../../../../../assets/img/ScottyFondoTransparente.png">
+    <link rel="stylesheet" href="../../../../../assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../../../pages/inicio.html" class="logo">
+                <img src="../../../../../assets/img/ScottyFondoTransparente.png" alt="Logo de Scotty.App">
+                <span>Scotty.App</span>
+            </a>
+
+            <div class="menu">
+                <a href="../../../../../pages/inicio.html">Inicio</a>
+
+                <details class="menu-usuario">
+                    <summary><span class="nombre-usuario">Usuario</span></summary>
+                    <div class="desplegable">
+                        <a href="../../../../../pages/perfil.html">Perfil</a>
+                        <a href="../../../../../pages/auth/signin.html" class="cerrar-sesion">Cerrar sesión</a>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a href="javascript:history.back()" class="btn-volver">&#8592; Volver</a>
+        <section class="ejercicios">
+            <h1>SQL - Bloque 10</h1>
+            <p>Practica diseño basico de tablas.</p>
+
+            <form class="quiz" data-quiz data-clave="bloque10Sql" data-resultado="resultado-bloque10-sql.html">
+                <article>
+                    <h2>Ejercicio 46</h2>
+                    <p>¿Qué comando crea una tabla?</p>
+                    <label><input type="radio" name="sql46" value="correcta"> CREATE TABLE</label>
+                    <label><input type="radio" name="sql46" value="incorrecta"> MAKE TABLE</label>
+                    <label><input type="radio" name="sql46" value="incorrecta"> NEW BASE</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 47</h2>
+                    <p>¿Qué tipo guarda texto variable?</p>
+                    <label><input type="radio" name="sql47" value="correcta"> VARCHAR</label>
+                    <label><input type="radio" name="sql47" value="incorrecta"> NUMBER</label>
+                    <label><input type="radio" name="sql47" value="incorrecta"> DATE</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 48</h2>
+                    <p>¿Qué tipo guarda fechas?</p>
+                    <label><input type="radio" name="sql48" value="correcta"> DATE</label>
+                    <label><input type="radio" name="sql48" value="incorrecta"> TEXT</label>
+                    <label><input type="radio" name="sql48" value="incorrecta"> BOOL</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 49</h2>
+                    <p>¿Qué restriccion evita valores repetidos?</p>
+                    <label><input type="radio" name="sql49" value="correcta"> UNIQUE</label>
+                    <label><input type="radio" name="sql49" value="incorrecta"> ONLY</label>
+                    <label><input type="radio" name="sql49" value="incorrecta"> SINGLE</label>
+                </article>
+                <article>
+                    <h2>Ejercicio 50</h2>
+                    <p>¿Qué restriccion evita valores vacíos?</p>
+                    <label><input type="radio" name="sql50" value="correcta"> NOT NULL</label>
+                    <label><input type="radio" name="sql50" value="incorrecta"> NO EMPTY</label>
+                    <label><input type="radio" name="sql50" value="incorrecta"> FULL</label>
+                </article>
+                <button type="submit">Terminar bloque</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../../../../../assets/js/script.js"></script>
+</body>
+</html>
