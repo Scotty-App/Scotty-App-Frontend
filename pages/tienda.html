@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +30,7 @@
     </header>
 
     <main>
-        <a href="javascript:history.back()" class="btn-volver">&#8592; Volver</a>
+        <a href="/pages/inicio.html" class="btn-volver">Volver</a>
         <section class="tienda">
             <p class="etiqueta">Merch para apoyar el proyecto</p>
             <h1>Tienda de Scotty.App</h1>
@@ -43,72 +43,72 @@
             <div class="layout-tienda">
                 <div class="galeria">
                     <article class="producto">
-                        <div class="imagen-prod">
+                        <div class="foto-producto">
                             <img src="../assets/img/Camiseta_Delante.jpg" alt="Camiseta Scotty.App">
                         </div>
                         <h2>Camiseta Scotty.App</h2>
                         <p>Camiseta negra con logo azul, pensada para programar cómodo durante horas.</p>
-                        <div class="precio-prod">
+                        <div class="pie-producto">
                             <span>19,99 EUR</span>
                             <button type="button" class="btn-compra" data-nombre="Camiseta Scotty.App" data-precio="19.99">Añadir</button>
                         </div>
                     </article>
 
                     <article class="producto">
-                        <div class="imagen-prod">
+                        <div class="foto-producto">
                             <img src="../assets/img/Sudadera_Delante.jpg" alt="Sudadera Nivel XP">
                         </div>
                         <h2>Sudadera Nivel XP</h2>
                         <p>Sudadera suave con diseño de experiencia para quienes siempre van a por otro bloque.</p>
-                        <div class="precio-prod">
+                        <div class="pie-producto">
                             <span>39,99 EUR</span>
                             <button type="button" class="btn-compra" data-nombre="Sudadera Nivel XP" data-precio="39.99">Añadir</button>
                         </div>
                     </article>
 
                     <article class="producto">
-                        <div class="imagen-prod">
+                        <div class="foto-producto">
                             <img src="../assets/img/Taza.jpg" alt="Taza de código">
                         </div>
                         <h2>Taza de código</h2>
                         <p>Taza para acompañar sesiones de quiz, repasos largos y pequeños logros diarios.</p>
-                        <div class="precio-prod">
+                        <div class="pie-producto">
                             <span>11,99 EUR</span>
                             <button type="button" class="btn-compra" data-nombre="Taza de código" data-precio="11.99">Añadir</button>
                         </div>
                     </article>
 
                     <article class="producto">
-                        <div class="imagen-prod">
+                        <div class="foto-producto">
                             <img src="../assets/img/Pegatinas.jpg" alt="Pack de pegatinas">
                         </div>
                         <h2>Pack de pegatinas</h2>
                         <p>Pegatinas de lenguajes, puntos, niveles y frases cortas para decorar tu setup.</p>
-                        <div class="precio-prod">
+                        <div class="pie-producto">
                             <span>6,99 EUR</span>
                             <button type="button" class="btn-compra" data-nombre="Pack de pegatinas" data-precio="6.99">Añadir</button>
                         </div>
                     </article>
 
                     <article class="producto">
-                        <div class="imagen-prod">
+                        <div class="foto-producto">
                             <img src="../assets/img/Libreta.jpg" alt="Libreta de retos">
                         </div>
                         <h2>Libreta de retos</h2>
                         <p>Libreta para apuntar dudas, soluciones y trucos que quieras recordar después.</p>
-                        <div class="precio-prod">
+                        <div class="pie-producto">
                             <span>8,99 EUR</span>
                             <button type="button" class="btn-compra" data-nombre="Libreta de retos" data-precio="8.99">Añadir</button>
                         </div>
                     </article>
 
                     <article class="producto">
-                        <div class="imagen-prod">
+                        <div class="foto-producto">
                             <img src="../assets/img/Funda_Portatil.jpg" alt="Funda portátil">
                         </div>
                         <h2>Funda portátil</h2>
                         <p>Funda acolchada para proteger tu portátil y llevar Scotty.App contigo.</p>
-                        <div class="precio-prod">
+                        <div class="pie-producto">
                             <span>14,99 EUR</span>
                             <button type="button" class="btn-compra" data-nombre="Funda portátil" data-precio="14.99">Añadir</button>
                         </div>
@@ -117,16 +117,16 @@
 
                 <aside class="carrito">
                     <h2>Carrito</h2>
-                    <div id="listaCarrito" class="items-cesta">
+                    <div id="listaCarrito">
                         <p class="carrito-vacio">Todavía no has añadido productos.</p>
                     </div>
 
-                    <div class="total-compra">
+                    <div class="total-carrito">
                         <span>Total</span>
                         <strong id="totalCarrito">0,00 EUR</strong>
                     </div>
 
-                    <div class="botones-cesta">
+                    <div class="botones-carrito">
                         <button type="button" id="vaciarCarrito">Vaciar</button>
                         <button type="button" id="finalizarCompra">Finalizar compra</button>
                     </div>
@@ -135,6 +135,7 @@
         </section>
     </main>
 
-    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/ui.js"></script>
+    <script src="../assets/js/tienda.js"></script>
 </body>
 </html>

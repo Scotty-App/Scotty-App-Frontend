@@ -40,7 +40,11 @@ Scotty-App-Frontend/
 │   ├── css/
 │   │   └── estilos.css                 # Estilos globales
 │   ├── js/
-│   │   └── script.js                   # Lógica de la aplicación
+│   │   ├── auth.js                     # Registro e inicio de sesión
+│   │   ├── ui.js                       # Menú de usuario y perfil
+│   │   ├── quiz.js                     # Quiz, resultados y progreso
+│   │   ├── tienda.js                   # Carrito de la tienda
+│   │   └── script.js                   # Copia de seguridad (no en uso)
 │   └── img/                            # Imágenes y logos
 └── README.md
 ```
@@ -69,16 +73,17 @@ Permite elegir entre cuatro lenguajes disponibles:
 - HTML y CSS
 
 ### Bloques de ejercicios — `pages/ejercicios/{lang}.html`
-Cada lenguaje tiene cuatro bloques de cinco preguntas tipo test:
+Cada lenguaje tiene 12 bloques de cinco preguntas tipo test, organizados en tres niveles de dificultad:
 
-| Bloque | Preguntas |
-|--------|-----------|
-| 1      | 1 – 5     |
-| 2      | 6 – 10    |
-| 3      | 11 – 15   |
-| 4      | 16 – 20   |
+| Nivel      | Bloques | Preguntas | XP por bloque |
+|------------|---------|-----------|---------------|
+| Fácil      | 1 – 4   | 1 – 20    | 20 XP         |
+| Intermedio | 5 – 8   | 21 – 40   | 30 XP         |
+| Difícil    | 9 – 12  | 41 – 60   | 50 XP         |
 
 Cada bloque sigue el flujo: **pantalla previa → quiz → resultados**.
+
+Para superar un bloque hay que acertar al menos 3 de 5 preguntas. El XP solo se suma una vez por bloque aunque se repita.
 
 **Contenidos por lenguaje:**
 - **Java:** variables, clases, bucles, objetos y métodos.
@@ -122,12 +127,9 @@ Esta opción evita problemas con rutas relativas entre archivos.
 
 ## Estado del proyecto
 
-El proyecto está en versión inicial funcional: registro, inicio de sesión, selección de lenguaje y navegación por bloques de ejercicios operativos.
+El proyecto está en versión funcional completa en el lado cliente: registro, inicio de sesión, quiz con corrección automática, sistema de XP, progreso persistente por bloque y carrito de la tienda operativos.
 
 **Pendiente de implementar:**
-- Corrección automática de ejercicios y puntuación en tiempo real.
-- Sistema completo de XP y progreso persistente por usuario.
-- Tienda de recompensas funcional.
 - Más preguntas, niveles y lenguajes.
 - Backend y base de datos real.
 
