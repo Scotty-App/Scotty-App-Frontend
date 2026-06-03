@@ -46,20 +46,8 @@ function mostrarResultado() {
     document.getElementById("puntosResultado").textContent = aciertos + "/" + totalPreguntas;
 
     if (aciertos >= 3) {
-        // Calculamos cuánto XP corresponde según el número de bloque:
-        // Bloques 1-4 (fácil): 20 XP | Bloques 5-8 (intermedio): 30 XP | Bloques 9-12 (difícil): 50 XP
-        const numeroBloque = parseInt(clave.replace(/\D/g, ""));
-        let xpGanada = 20;
-        if (numeroBloque >= 9) xpGanada = 50;
-        else if (numeroBloque >= 5) xpGanada = 30;
-
-        // Solo sumamos el XP la primera vez que se supera el bloque
-        const claveXp = "xpSumada" + clave;
-        if (!localStorage.getItem(claveXp)) {
-            const xpActual = Number(localStorage.getItem("xpUsuario")) || 0;
-            localStorage.setItem("xpUsuario", xpActual + xpGanada);
-            localStorage.setItem(claveXp, "true");
-        }
+        const xpActual = Number(localStorage.getItem("xpUsuario")) || 0;
+        localStorage.setItem("xpUsuario", xpActual + 30);
 
         document.getElementById("tituloResultado").textContent = "Enhorabuena, has superado el bloque";
         document.getElementById("textoResultado").textContent = "Has acertado " + aciertos + " de " + totalPreguntas + " preguntas. Buen trabajo, ya puedes seguir con el siguiente bloque.";
